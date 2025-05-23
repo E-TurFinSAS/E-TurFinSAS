@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.features, .team, .project-link {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.features ul {
+    margin-top: 10px;
+    list-style: disc inside;
+}
+
+.project-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.project-link a:hover {
+    background: #005fa3;
+}
+
+.member {
+    margin-top: 10px;
+}
+
+.member a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+}
